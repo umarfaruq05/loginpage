@@ -1,0 +1,143 @@
+@font-face {
+    font-family: inter;
+    src: url(./font/inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: itim;
+    src: url(./font/itim/Itim-Regular.ttf);
+}
+
+body {
+    font-family: inter;
+    font-weight: 500;
+    color: black;
+}
+
+.container {
+    margin: 30px auto;
+    width: 90%;
+    /* border: 4px solid black; */
+    /* min-height: 80%; */
+    box-sizing: border-box;
+    /* padding: 30px; */
+    background-color: #F9E6E6;
+}
+
+.content {
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.fir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fir h2 {
+    color: #474BCA;
+    font-family: itim;
+    font-size: 26px;
+}
+
+.fir button {
+    background-color: #474BCA;
+    color: white;
+    font-family: inter;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 120px;
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: inter;
+    font-weight: 700;
+}
+
+.sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.details {
+    line-height: 25px;
+}
+
+label, input.text, input.password {
+    width: 100%;
+    margin: 8px 0;
+}
+
+input.text, input.password {
+    background-color: #FFA3BE;
+    border: none;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    color: grey;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+
+.google {
+    width: 100%;
+    background-color: #FFA3BE;
+    border: none;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    color: white;
+    background-color: #474BCA;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.register {
+    font-weight: 0;
+    font-size: 14px;
+}
+
+.register a {
+    /* text-decoration: none; */
+    color: #FFA3BE;
+}
+
+.image {
+    margin-left: 70px;
+}
+
+
+@media (max-width: 800px) {
+    .image {
+        display: none;
+    }
+}
